@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f90f5d6-db34-4e29-9cb3-ae47b165f055" name="Default Changelist" comment="initial express commit">
+      <change afterPath="$PROJECT_DIR$/models/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1pgrn2myla9hUsjMQIRCuhFWGUk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="start" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.Unnamed" />
+      <item itemvalue="npm.start" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f90f5d6-db34-4e29-9cb3-ae47b165f055" name="Default Changelist" comment="" />
+      <created>1615615738033</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615615738033</updated>
+      <workItem from="1615615739128" duration="1560000" />
+      <workItem from="1615641876724" duration="3645000" />
+      <workItem from="1615645976680" duration="749000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial express commit">
+      <created>1615617011724</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615617011724</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial express commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial express commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="141" y="19" width="1084" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615646724528">
+      <screen x="0" y="0" width="1366" height="731" />
+    </state>
+    <state x="141" y="19" width="1084" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.731@0.0.1366.731" timestamp="1615646724528" />
+    <state width="1338" height="170" key="GridCell.Tab.0.bottom" timestamp="1615617375798">
+      <screen x="0" y="0" width="1366" height="731" />
+    </state>
+    <state width="1338" height="170" key="GridCell.Tab.0.bottom/0.0.1366.731@0.0.1366.731" timestamp="1615617375798" />
+    <state width="1338" height="170" key="GridCell.Tab.0.center" timestamp="1615617375797">
+      <screen x="0" y="0" width="1366" height="731" />
+    </state>
+    <state width="1338" height="170" key="GridCell.Tab.0.center/0.0.1366.731@0.0.1366.731" timestamp="1615617375797" />
+    <state width="1338" height="170" key="GridCell.Tab.0.left" timestamp="1615617375797">
+      <screen x="0" y="0" width="1366" height="731" />
+    </state>
+    <state width="1338" height="170" key="GridCell.Tab.0.left/0.0.1366.731@0.0.1366.731" timestamp="1615617375797" />
+    <state width="1338" height="170" key="GridCell.Tab.0.right" timestamp="1615617375797">
+      <screen x="0" y="0" width="1366" height="731" />
+    </state>
+    <state width="1338" height="170" key="GridCell.Tab.0.right/0.0.1366.731@0.0.1366.731" timestamp="1615617375797" />
+    <state x="278" y="86" width="804" height="558" key="Vcs.Push.Dialog.v2" timestamp="1615617024897">
+      <screen x="0" y="0" width="1366" height="731" />
+    </state>
+    <state x="278" y="86" width="804" height="558" key="Vcs.Push.Dialog.v2/0.0.1366.731@0.0.1366.731" timestamp="1615617024897" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/routes/users.js</url>
+          <line>16</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
