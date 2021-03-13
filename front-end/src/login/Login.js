@@ -4,7 +4,7 @@ import AppBar from 'material-ui/AppBar';
 import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
 import axios from 'axios';
-var apiBaseUrl = "http://localhost:4000/api/";
+var apiBaseUrl = "http://localhost:3000/"
 
 
 class Login extends Component {
@@ -68,17 +68,17 @@ class Login extends Component {
   handleClick(event){
     var self = this;
     var payload={
-      "userid":this.state.username,
+      "email":this.state.username,
 	    "password":this.state.password,
     }
-    axios.post(apiBaseUrl+'login', payload)
+    axios.post(apiBaseUrl+'users/login', payload)
    .then(function (response) {
      console.log(response);
-     if(response.data.code == 200){
-       console.log("Login successfull");
-       var uploadScreen=[];
-      // uploadScreen.push(<UploadPage appContext={self.props.appContext} role={self.state.loginRole}/>)
-       //self.props.appContext.setState({loginPage:[],uploadScreen:uploadScreen})
+     if(response.status == 200){
+       console.log(response.data)
+      localStorage.setItem('userdata',JSON.stringify(response.data))  
+       window.location.href="/portal"
+
      }
      else if(response.data.code == 204){
        console.log("Username password do not match");

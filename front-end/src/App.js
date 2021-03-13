@@ -5,7 +5,7 @@ import {Switch, Route} from 'react-router-dom'
 
 function App() {
       return (
-        <Switch>
+      <Switch>
         <Route exact path='/' component={LoginScreen}/>
         <Route path='/portal' component={Portal}/>
       </Switch>

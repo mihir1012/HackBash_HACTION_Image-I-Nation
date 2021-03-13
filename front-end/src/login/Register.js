@@ -5,49 +5,46 @@ import RaisedButton from 'material-ui/RaisedButton';
 import TextField from 'material-ui/TextField';
 import axios from 'axios';
 import Login from './Login';
+import { Redirect } from 'react-router';
+
 
 class Register extends Component {
   constructor(props){
     super(props);
     this.state={
-      first_name:'',
-      last_name:'',
       email:'',
-      password:''
+      password:'',
+      isLogin:''
     }
   }
-  componentWillReceiveProps(nextProps){
-    console.log("nextProps",nextProps);
-  }
-  handleClick(event,role){
-    var apiBaseUrl = "http://localhost:4000/api/";
-    // console.log("values in register handler",role);
+  handleClick(event){
     var self = this;
+    var apiBaseUrl = "http://localhost:3000/";
     //To be done:check for empty values before hitting submit
-    if(this.state.first_name.length>0 && this.state.last_name.length>0 && this.state.email.length>0 && this.state.password.length>0){
+    if(this.state.email.length>0 && this.state.password.length>0){ 
+      console.log("if ke ander")
       var payload={
-      "first_name": this.state.first_name,
-      "last_name":this.state.last_name,
-      "userid":this.state.email,
+      "email":this.state.email,
       "password":this.state.password,
-      "role":role
       }
-      axios.post(apiBaseUrl+'/register', payload)
+     
+      axios.post(apiBaseUrl+'users/register', payload)
      .then(function (response) {
        console.log(response);
-       if(response.data.code === 200){
-        //  console.log("registration successfull");
-         var loginscreen=[];
-         loginscreen.push(<Login parentContext={this} appContext={self.props.appContext} role={role}/>);
+       if(response.status === 200){
+        window.location.href="/"
+        window.alert("Register successful login now!")
+ /*        var loginscreen=[];
+         loginscreen.push(<Login parentContext={this} appContext={self.props.appContext}/>);
          var loginmessage = "Not Registered yet.Go to registration";
          self.props.parentContext.setState({loginscreen:loginscreen,
          loginmessage:loginmessage,
          buttonLabel:"Register",
          isLogin:true
-          });
+          });*/
        }
        else{
-         console.log("some error ocurred",response.data.code);
+         console.log("some error ocurred",response.status);
        }
      })
      .catch(function (error) {
@@ -61,15 +58,8 @@ class Register extends Component {
   }
   render() {
     // console.log("props",this.props);
-    var userhintText,userLabel;
-    if(this.props.role === "student"){
-      userhintText="Enter your Student Id";
-      userLabel="Student Id";
-    }
-    else{
-      userhintText="Enter your Teacher Id";
-      userLabel="Teacher Id";
-    }
+    var  userhintText="Enter your email id";
+     var  userLabel="Email id";
     return (
       <div>
         <MuiThemeProvider>
@@ -77,18 +67,6 @@ class Register extends Component {
           <AppBar
              title="Register"
            />
-           <TextField
-             hintText="Enter your First Name"
-             floatingLabelText="First Name"
-             onChange = {(event,newValue) => this.setState({first_name:newValue})}
-             />
-           <br/>
-           <TextField
-             hintText="Enter your Last Name"
-             floatingLabelText="Last Name"
-             onChange = {(event,newValue) => this.setState({last_name:newValue})}
-             />
-           <br/>
            <TextField
              hintText={userhintText}
              floatingLabelText={userLabel}

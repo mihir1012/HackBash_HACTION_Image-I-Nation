@@ -5,6 +5,9 @@ import { ChonkyIconFA } from 'chonky-icon-fontawesome';
 
 function Portal() {
     setChonkyDefaults({ iconComponent: ChonkyIconFA })
+    
+const user = JSON.parse(localStorage.getItem('userdata'));
+    console.log(user)
   return (
     <div className="App">
       <FullFileBrowser files={[
