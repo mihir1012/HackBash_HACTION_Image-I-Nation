@@ -9,6 +9,7 @@
     "axios": "^0.21.1",
     "chonky": "^2.1.0",
     "chonky-icon-fontawesome": "^2.1.0",
+    "file-dialog": "0.0.8",
     "material-ui": "^0.20.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
