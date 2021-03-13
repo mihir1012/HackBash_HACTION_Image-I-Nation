@@ -19,8 +19,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f90f5d6-db34-4e29-9cb3-ae47b165f055" name="Default Changelist" comment="user registration and signup">
+    <list default="true" id="5f90f5d6-db34-4e29-9cb3-ae47b165f055" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/routes/imagetransform.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/login/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/login/LoginScreen.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/login/Register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/portal/portal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../front-end/src/setupTests.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +70,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../front-end" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="npm.start">
@@ -77,6 +102,7 @@
       <workItem from="1615615739128" duration="1560000" />
       <workItem from="1615641876724" duration="3645000" />
       <workItem from="1615645976680" duration="2156000" />
+      <workItem from="1615654005135" duration="16546000" />
     </task>
     <task id="LOCAL-00001" summary="initial express commit">
       <created>1615617011724</created>
@@ -99,7 +125,42 @@
       <option name="project" value="LOCAL" />
       <updated>1615647170031</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="imageupload initial">
+      <created>1615661325224</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615661325224</updated>
+    </task>
+    <task id="LOCAL-00005" summary="imageupload on aws bucket">
+      <created>1615668613868</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615668613868</updated>
+    </task>
+    <task id="LOCAL-00006" summary="imageupload on aws bucket">
+      <created>1615669994425</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615669994425</updated>
+    </task>
+    <task id="LOCAL-00007" summary="gitignore">
+      <created>1615670217986</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615670217986</updated>
+    </task>
+    <task id="LOCAL-00008" summary="get image">
+      <created>1615671029489</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615671029489</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,29 +181,41 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial express commit" />
     <MESSAGE value="user registration and signup" />
-    <option name="LAST_COMMIT_MESSAGE" value="user registration and signup" />
+    <MESSAGE value="imageupload initial" />
+    <MESSAGE value="imageupload on aws bucket" />
+    <MESSAGE value="gitignore" />
+    <MESSAGE value="get image" />
+    <option name="LAST_COMMIT_MESSAGE" value="get image" />
   </component>
   <component name="WindowStateProjectService">
     <state x="141" y="19" width="1084" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1615646724528">
       <screen x="0" y="0" width="1366" height="731" />
     </state>
     <state x="141" y="19" width="1084" height="712" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.731@0.0.1366.731" timestamp="1615646724528" />
-    <state width="1338" height="170" key="GridCell.Tab.0.bottom" timestamp="1615647223464">
+    <state x="425" y="164" width="509" height="402" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1615669254429">
       <screen x="0" y="0" width="1366" height="731" />
     </state>
-    <state width="1338" height="170" key="GridCell.Tab.0.bottom/0.0.1366.731@0.0.1366.731" timestamp="1615647223464" />
-    <state width="1338" height="170" key="GridCell.Tab.0.center" timestamp="1615647223463">
+    <state x="425" y="164" width="509" height="402" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.731@0.0.1366.731" timestamp="1615669254429" />
+    <state x="466" y="123" width="428" height="484" key="FileChooserDialogImpl" timestamp="1615655131128">
       <screen x="0" y="0" width="1366" height="731" />
     </state>
-    <state width="1338" height="170" key="GridCell.Tab.0.center/0.0.1366.731@0.0.1366.731" timestamp="1615647223463" />
-    <state width="1338" height="170" key="GridCell.Tab.0.left" timestamp="1615647223463">
+    <state x="466" y="123" width="428" height="484" key="FileChooserDialogImpl/0.0.1366.731@0.0.1366.731" timestamp="1615655131128" />
+    <state width="1338" height="170" key="GridCell.Tab.0.bottom" timestamp="1615676517179">
       <screen x="0" y="0" width="1366" height="731" />
     </state>
-    <state width="1338" height="170" key="GridCell.Tab.0.left/0.0.1366.731@0.0.1366.731" timestamp="1615647223463" />
-    <state width="1338" height="170" key="GridCell.Tab.0.right" timestamp="1615647223463">
+    <state width="1338" height="170" key="GridCell.Tab.0.bottom/0.0.1366.731@0.0.1366.731" timestamp="1615676517178" />
+    <state width="1338" height="170" key="GridCell.Tab.0.center" timestamp="1615676517178">
       <screen x="0" y="0" width="1366" height="731" />
     </state>
-    <state width="1338" height="170" key="GridCell.Tab.0.right/0.0.1366.731@0.0.1366.731" timestamp="1615647223463" />
+    <state width="1338" height="170" key="GridCell.Tab.0.center/0.0.1366.731@0.0.1366.731" timestamp="1615676517178" />
+    <state width="1338" height="170" key="GridCell.Tab.0.left" timestamp="1615676517178">
+      <screen x="0" y="0" width="1366" height="731" />
+    </state>
+    <state width="1338" height="170" key="GridCell.Tab.0.left/0.0.1366.731@0.0.1366.731" timestamp="1615676517178" />
+    <state width="1338" height="170" key="GridCell.Tab.0.right" timestamp="1615676517178">
+      <screen x="0" y="0" width="1366" height="731" />
+    </state>
+    <state width="1338" height="170" key="GridCell.Tab.0.right/0.0.1366.731@0.0.1366.731" timestamp="1615676517178" />
     <state width="1338" height="213" key="GridCell.Tab.1.bottom" timestamp="1615646871305">
       <screen x="0" y="0" width="1366" height="731" />
     </state>
@@ -191,17 +264,29 @@
       <screen x="0" y="0" width="1366" height="731" />
     </state>
     <state width="1338" height="213" key="GridCell.Tab.3.right/0.0.1366.731@0.0.1366.731" timestamp="1615646871307" />
-    <state x="278" y="86" width="804" height="558" key="Vcs.Push.Dialog.v2" timestamp="1615647171450">
+    <state x="129" y="59" width="1096" height="614" key="MergeDialog" timestamp="1615676423459">
       <screen x="0" y="0" width="1366" height="731" />
     </state>
-    <state x="278" y="86" width="804" height="558" key="Vcs.Push.Dialog.v2/0.0.1366.731@0.0.1366.731" timestamp="1615647171450" />
+    <state x="129" y="59" width="1096" height="614" key="MergeDialog/0.0.1366.731@0.0.1366.731" timestamp="1615676423459" />
+    <state x="318" y="126" width="723" height="479" key="MultipleFileMergeDialog" timestamp="1615670175144">
+      <screen x="0" y="0" width="1366" height="731" />
+    </state>
+    <state x="318" y="126" width="723" height="479" key="MultipleFileMergeDialog/0.0.1366.731@0.0.1366.731" timestamp="1615670175144" />
+    <state x="179" y="0" key="SettingsEditor" timestamp="1615661373767">
+      <screen x="0" y="0" width="1366" height="731" />
+    </state>
+    <state x="179" y="0" key="SettingsEditor/0.0.1366.731@0.0.1366.731" timestamp="1615661373767" />
+    <state x="278" y="86" width="804" height="558" key="Vcs.Push.Dialog.v2" timestamp="1615671032192">
+      <screen x="0" y="0" width="1366" height="731" />
+    </state>
+    <state x="278" y="86" width="804" height="558" key="Vcs.Push.Dialog.v2/0.0.1366.731@0.0.1366.731" timestamp="1615671032192" />
     <state x="396" y="62" width="567" height="607" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1615647013427">
       <screen x="0" y="0" width="1366" height="731" />
     </state>
     <state x="396" y="62" width="567" height="607" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.731@0.0.1366.731" timestamp="1615647013427" />
-    <state x="484" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615647066315">
+    <state x="484" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615676331679">
       <screen x="0" y="0" width="1366" height="731" />
     </state>
-    <state x="484" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.731@0.0.1366.731" timestamp="1615647066315" />
+    <state x="484" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.731@0.0.1366.731" timestamp="1615676331679" />
   </component>
 </project>
