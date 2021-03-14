@@ -38,42 +38,32 @@
 ## Demo : 
 
 ```bash
-
         COMING SOON
-
 ```
 
 ## Contributors :
 
     -> Mihir Mehta : 
 
-        [Resume]()
-
         [Github](https://github.com/mihir1012/)
 
-        [LinkedIn]()
+        [LinkedIn](https://www.linkedin.com/in/mihirmehta1012/)
 
     -> Harsh Maheshwari :
 
-        [Resume]()
+        [Github](https://github.com/harshchinu/)
 
-        [Github]()
-
-        [LinkedIn]()
+        [LinkedIn](https://www.linkedin.com/in/harsh-maheshwari-a29968177/)
 
     -> Parth Shethwala :
 
-        [Resume]()
+        [Github](https://github.com/parth1501)
 
-        [Github]()
-
-        [LinkedIn]()
+        [LinkedIn](https://www.linkedin.com/in/parth-shethwala-8b007515a/)
 
     -> Smit Tailor :
 
-        [Resume]()
+        [Github](https://github.com/tailorsmit)
 
-        [Github]()
-
-        [LinkedIn]()    
+        [LinkedIn](https://www.linkedin.com/in/smit-tailor-715a23150/)    
 
