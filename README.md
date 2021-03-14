@@ -43,11 +43,15 @@
 
 -> Mihir Mehta : 
 
+[Resume](resume/MihirMehta_SCET.pdf)
+
 [GitHub](https://github.com/mihir1012/)
 
 [LinkedIn](https://www.linkedin.com/in/mihirmehta1012/)
 
 -> Harsh Maheshwari :
+
+[Resume](resume/HarshMaheshwariResume.pdf)
 
 [GitHub](https://github.com/harshchinu/)
 
@@ -55,11 +59,15 @@
 
 -> Parth Shethwala :
 
+[Resume](resume/Resume_Parth.pdf)
+
 [GitHub](https://github.com/parth1501)
 
 [LinkedIn](https://www.linkedin.com/in/parth-shethwala-8b007515a/)
 
 -> Smit Tailor :
+
+[Resume](resume/resume_smit.pdf)
 
 [GitHub](https://github.com/tailorsmit)
 
