@@ -43,25 +43,25 @@
 
 -> Mihir Mehta : 
 
-<https://github.com/mihir1012/>
+[GitHub](https://github.com/mihir1012/)
 
-<https://www.linkedin.com/in/mihirmehta1012/>
+[LinkedIn](https://www.linkedin.com/in/mihirmehta1012/)
 
 -> Harsh Maheshwari :
 
-<https://github.com/harshchinu/>
+[GitHub](https://github.com/harshchinu/)
 
-<https://www.linkedin.com/in/harsh-maheshwari-a29968177/>
+[LinkedIn](https://www.linkedin.com/in/harsh-maheshwari-a29968177/)
 
 -> Parth Shethwala :
 
-<https://github.com/parth1501>
+[GitHub](https://github.com/parth1501)
 
-<https://www.linkedin.com/in/parth-shethwala-8b007515a/>
+[LinkedIn](https://www.linkedin.com/in/parth-shethwala-8b007515a/)
 
 -> Smit Tailor :
 
-<https://github.com/tailorsmit>
+[GitHub](https://github.com/tailorsmit)
 
-<https://www.linkedin.com/in/smit-tailor-715a23150/>
+[LinkedIn](https://www.linkedin.com/in/smit-tailor-715a23150/)
 
