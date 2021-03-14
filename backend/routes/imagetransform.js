@@ -4,6 +4,7 @@ const fs = require('fs')
 const download = require('download')
 const files = require('../models/fileurl')
 var url = require('url');
+const sharp = require('sharp');
 
 
 router.get('/', async (req, res, next) => {
@@ -11,11 +12,27 @@ router.get('/', async (req, res, next) => {
     var query = url_parts.query;
     console.log(query.height)
     console.log(query.width)
-    fs.unlinkSync("temp/Index_mcwc.pdf")
-    const image = await download("https://thebigbang.s3.ap-south-1.amazonaws.com/604d2243aafbfa26063d8b28/Index_mcwc.pdf",
+    //fs.unlinkSync("temp/Index_mcwc.pdf")
+    const image = await download(query.url,
         'temp/')
     //ops
 
-    res.send({"imageurl": "http://localhost:3000/Index_mcwc.pdf"})
-})
+ if(Boolean(query.resize)==true){
+     sharp(image)
+     .resize(parseInt(query.height), parseInt(query.width),{
+         fit: 'fill'
+     })
+     .toFile('temp/image.jpg', (err, info) => { console.log("error") });
+    }
+
+  
+
+if(Boolean(query.resize)==true){
+    sharp(image)
+  .resize(parseInt(query.height), parseInt(query.width))
+
+  .toFile('temp/image.jpg', (err, info) => { console.log("error") });
+}
+
+
 module.exports = router;
