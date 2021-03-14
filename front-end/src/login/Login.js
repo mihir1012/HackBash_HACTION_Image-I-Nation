@@ -74,7 +74,7 @@ class Login extends Component {
     axios.post(apiBaseUrl+'users/login', payload)
    .then(function (response) {
      console.log(response);
-     if(response.status == 200){
+     if(response.status == 200 && response.data.email!=undefined){
        console.log(response.data)
       localStorage.setItem('userdata',JSON.stringify(response.data))  
        window.location.href="/portal"

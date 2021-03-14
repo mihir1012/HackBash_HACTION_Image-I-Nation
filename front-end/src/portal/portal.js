@@ -11,22 +11,56 @@ class Portal extends Component  {
     super(props);
     setChonkyDefaults({ iconComponent: ChonkyIconFA })
     this.state={
-     filesobj : [{ id: 'xWbZ', name: 'Instructions.txt' }]
+     filesobj : []
     }
 
+    
+  
   }
 
-    //var user = JSON.parse(localStorage.getItem('userdata'));
-    //console.log(user)
+  getData=()=>{
+    var user = JSON.parse(localStorage.getItem('userdata'));
+  console.log(user)
+  
+   fetch("http://localhost:3000/images/"+user._id+"/")
+      .then(res => res.json())
+      .then(
+        (result) => {
+          var files = []
+          console.log(result)
+          for(var i=0;i<result.length;i++){
+            files = [...this.state.filesobj,{id:result[i]._id, name:result[i].urls.split("/")[4].split("%").join(" "), thumbnailUrl: result[i].urls}]
+            this.setState({
+              filesobj: files
+            });
+          }
+        },
+        // Note: it's important to handle errors here
+        // instead of a catch() block so that we don't swallow
+        // exceptions from actual bugs in components.
+        (error) => {
+
+        }
+      )
+  }
+
+  componentWillMount(){
+    this.getData()
+    
+}
+
+    
 
     handleFileAction =(FileAction,  FileActionData)=>{
+
+      var user = JSON.parse(localStorage.getItem('userdata'));
+      console.log(user)
 
               console.log('Action definition:', FileAction);
               console.log('Action data:', FileActionData);
               if(FileAction.id=="upload_files"){
                 fileDialog({ multiple: true, accept: 'image/*' })
     .then(file  => {
-
   
       for(var i=0;i<file.length;i++){
       var files = [...this.state.filesobj,{id:file[i].lastModified, name:file[i].name, thumbnailUrl: 'https://chonky.io/chonky-sphere-v2.png'}]
@@ -34,7 +68,7 @@ class Portal extends Component  {
         console.log(file[i])
         const formData = new FormData();
         formData.append('image', file[i]);
-        formData.append('user_id', "704d2243aafbfa26063d8b28");
+        formData.append('user_id', user._id);
         axios.post('http://localhost:3000/images/upload', formData, {})
             .catch(() => {
                 console.log("Failed")
@@ -54,29 +88,6 @@ class Portal extends Component  {
   }
   
 }
-        
-//        this.setState({count: this.state.count + 1});
-
-
-    //    var files = [this.state.filesobj,{id:file[0].lastModified, name:file[0].name, thumbnailUrl: 'https://chonky.io/chonky-sphere-v2.png'}]
-  //      this.setState(filesobj=files);
-        
-
-       // fileAdd(files)
-      ///  files.push()
-        //fileAdd(files)
-
-     /*   // Post to server
-        fetch('/uploadImage', {
-            method: 'POST',
-            body: data
-        })
-       
-    })
-  }*/
-
-    
-//files={fileobj}
 
 render(){
   return (
